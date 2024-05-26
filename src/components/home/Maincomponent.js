@@ -1,6 +1,7 @@
 import React from 'react'
 import Bannar from './Bannar'
 import "./home.css"
+import Slide from './Slide';
 
 const Maincomponent = () => {
   return (
@@ -9,6 +10,9 @@ const Maincomponent = () => {
             <Bannar/>
 
         </div>
+        <Slide />
+        
+
 
     </div>
   )
