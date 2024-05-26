@@ -82,7 +82,7 @@ export const products = [
             discount: '39%'
         },
         description: 'Processor: High performance MediaTek G85 ; Enhance gaming with 1GHz GPU | 12GB of RAM including 6GB virtual | 6.74" HD+ 90Hz display with Corning Gorilla Glass 3 Protection | 50MP AI Triple camera |Fast Side fingerprint | 5000mAh Battery',
-        discount: 'From ₹499',
+        discount: 'From ₹7000',
         tagline: 'Limited time deal'
     }
 ]
