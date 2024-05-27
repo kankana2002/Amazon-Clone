@@ -75,9 +75,7 @@ const Footer = () => {
 
 
 
-                <p>Conditions of Use & Sale
-                    Privacy Notice
-                    Interest-Based Ads</p>
+                <p>Conditions of Use & Sale &nbsp; &nbsp; &nbsp; Privacy Notice&nbsp; &nbsp; &nbsp; Interest-Based Ads</p>
                 <p>© 1996-{year}, Amazon.com, Inc. or its affiliates</p>
 
 
