@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 
 
 
+
 const Footer = () => {
     const year = new Date().getFullYear();
     console.log(year);
@@ -60,26 +61,20 @@ const Footer = () => {
                 </div>
 
             </div>
+           
+            <div>
+                <div className='navfooterline'>
+                    <span>
+                        <div className='footerlogo'>
+                            <img src='https://raw.githubusercontent.com/harsh17112000/E-commerceapp/main/client/public/amazon_PNG25.png'></img>
+
+                        </div>
+                    </span>
+
+                </div>
 
 
-            <div className='lastdetails'>
-                
-                <img src='https://raw.githubusercontent.com/harsh17112000/E-commerceapp/main/client/public/amazon_PNG25.png' />
-                
-                <Button variant="outlined" className='btn'>India</Button>
-                
-                
-
-
-
-                <p>Conditions of Use & Sale
-                    Privacy Notice
-                    Interest-Based Ads</p>
-                <p>© 1996-{year}, Amazon.com, Inc. or its affiliates</p>
-
-
-
-
+            
             </div>
            
 
