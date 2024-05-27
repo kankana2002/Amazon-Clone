@@ -66,3 +66,22 @@ footer p{
    
    margin: 0 auto;
 }
+.footer-top{
+    margin-bottom: 40px;
+    background-color: #37475A;
+    color: aliceblue;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer_f{
+    margin-top: -20px;
+
+
+}
+.herf{
+    text-decoration: none;
+}

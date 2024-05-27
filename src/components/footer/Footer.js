@@ -11,8 +11,15 @@ const Footer = () => {
     const year = new Date().getFullYear();
     console.log(year);
     return (
-        <footer>
+        <footer className='footer_f'>
+            <a href='javascript:void(0)' id='navback' aria-label='back to top' className='herf'>
+                    <div className='footer-top'>
+                        <span class="navfooterbacktotop">Back to top</span>
+                    </div>
+
+                </a>
             <div className='footer_container'>
+                
                 <div className='footr_details_one'>
                     <h3>Get to Know Us</h3>
                     <p>About Us</p>
