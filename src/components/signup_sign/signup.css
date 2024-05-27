@@ -39,9 +39,9 @@ section{
 }
 
 .sign_form input{
-    width: 100%;
-    height: 31px;
-    padding: 3px 7px;
+    width: 97%;
+    height: 27px;
+    /* padding: 3px 7px; */
     border-radius: 3px;
     outline: none;
     border:1px solid #a6a6a6;
@@ -70,6 +70,7 @@ section{
 .sign_form .signin_info{
     margin-top: 23px;
     display: flex;
+    align-items: center;
     margin-bottom: 10px;
 }
 
