@@ -1,9 +1,36 @@
-import React from 'react'
+
 import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react'
+
 
 
 
 const SignUp = () => {
+    const [udata,setUdata] = useState({
+        fname:"",
+        email:"",
+        mobile:"",
+        password:"",
+        cpassword:""
+
+    });
+    console.log(udata);
+
+
+
+    const adddata = (e)=>{
+        const {name,value} = e.target;
+
+        setUdata(()=>{
+            return{
+                ...udata,
+                [name]:value
+            }
+        })
+    }
+
+
+
     return (
         <section>
             <div className='sign_container'>
@@ -15,31 +42,46 @@ const SignUp = () => {
                         <h1>Sign-Up</h1>
                         <div className='"form_data'>
                             <label htmlFor='fname'>Your Name</label>
-                            <input type='text' name='fname' placeholder='Please enter your name' id='email' />
+                            <input type='text'
+                            onChange={adddata}
+                            value={udata.fname}
+                            name='fname' placeholder='Please enter your name' id='fname' />
 
 
                         </div>
                         <div className='"form_data'>
                             <label htmlFor='email'>Email</label>
-                            <input type='text' name='email' placeholder='Please enter your email' id='email' />
+                            <input type='text' 
+                            onChange={adddata}
+                            value={udata.email}
+                            name='email' placeholder='Please enter your email' id='email' />
 
 
                         </div>
                         <div className='"form_data'>
-                            <label htmlFor='number'>Mobile no</label>
-                            <input type='text' name='mobile' placeholder='Please enter your Mobile no' id='mobile' />
+                            <label htmlFor='mobile'>Mobile no</label>
+                            <input type='text' 
+                            onChange={adddata}
+                            value={udata.mobile}
+                            name='mobile' placeholder='Please enter your Mobile no' id='mobile' />
 
 
                         </div>
                         <div className='"form_data'>
                             <label htmlFor='password'>PassWord</label>
-                            <input type='password' name='password' placeholder='At least 8 char' id='password' />
+                            <input type='password' 
+                            onChange={adddata}
+                            value={udata.password}
+                            name='password' placeholder='At least 8 char' id='password' />
 
 
                         </div>
                         <div className='"form_data'>
-                            <label htmlFor='password'>Re-enter your password</label>
-                            <input type='password' name='password' id='password' />
+                            <label htmlFor='cpassword'>Re-enter your password</label>
+                            <input type='cpassword'
+                            onChange={adddata}
+                            value={udata.cpassword}
+                            name='cpassword' id='cpassword' />
 
 
                         </div>

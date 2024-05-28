@@ -1,8 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./signup.css";
 import { NavLink } from 'react-router-dom';
 
 const Sign_in = () => {
+    const [logdata,setData] = useState({
+        email:"",
+        password:""
+    });
+    console.log(logdata);
+
+    const adddata = (e)=>{
+       
+        const  {name,value} = e.target;
+
+        setData(()=>{
+            return{
+                ...logdata,
+                [name]:value
+            }
+        })
+
+
+
+    }
     return (
         <>
             <section>
@@ -15,13 +35,19 @@ const Sign_in = () => {
                             <h1>Sign-In</h1>
                             <div className='"form_data'>
                                 <label htmlFor='email'>Email</label>
-                                <input type='text' name='email' placeholder='Please enter your email' id='email' />
+                                <input type='text'
+                                onChange={adddata}
+                                value={logdata.email}
+                                name='email' placeholder='Please enter your email' id='email' />
 
 
                             </div>
                             <div className='"form_data'>
                                 <label htmlFor='password'>PassWord</label>
-                                <input type='password' name='password' placeholder='At least 8 char' id='password' />
+                                <input type='password'
+                                onChange={adddata}
+                                value={logdata.password}
+                                name='password' placeholder='At least 8 char' id='password' />
 
 
                             </div>
