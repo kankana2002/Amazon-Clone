@@ -170,3 +170,25 @@ button{
    color: gold
    
 }
+.image{
+    width: 150px;
+    height: auto;
+
+}
+.div{
+    margin-bottom: -40px;
+}
+.h6{
+    color: lightslategray;
+
+}
+.Last_section{
+    flex: 0.5;
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 20px;
+    width: 200px;
+  height: px;
+
+}

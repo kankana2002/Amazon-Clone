@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-regular-svg-icons'
 
 import { useState } from 'react';
+import { Divider } from '@mui/material';
+
 
 
 
@@ -45,9 +47,20 @@ const Cart = () => {
                   ))
                 }
               </div>
+              <div className='div'> 
+                <img src='https://www.zonbase.com/blog/wp-content/uploads/2021/08/5ff74433cedc318c055af9e7_1-1536x798-1.png' className='image'/>
+                
+              </div>
+              <h6 className='h6'>5K+ bought in past month</h6>
+              <Divider/>
+             
              
 
             </div>
+            <div className='Last_section'>
+
+            </div>
+           
 
         </div>
         
