@@ -89,7 +89,10 @@
 }
 
 .right_cart .mrp{
-    margin-top: 10px;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: -20px;
+
 }
 
 .right_cart p{
@@ -188,7 +191,25 @@ button{
     padding: 10px;
     border-radius: 4px;
     margin-left: 20px;
-    width: 200px;
-  height: px;
+    
+    
+  
 
+}
+.discount{
+    color: #ff6666;
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+.a-price{
+    font-size: 20px;
+    position: relative;
+   
+}
+.a-price-whole{
+    font-size: 40px;
+    position: absolute;
+    
+    
 }
