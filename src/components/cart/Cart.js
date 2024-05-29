@@ -65,6 +65,20 @@ const Cart = () => {
           <p className='mrp' >M.R.P.: ₹1,195</p>
           <p className='mrp'>Inclusive of all taxes</p>
           <p>EMI starts at ₹213 per month</p>
+          <Divider/>
+          <span className='offers'>
+          <img className='offer' src='https://cdn-icons-png.freepik.com/256/9374/9374306.png?ga=GA1.1.387523704.1705250724&semt=ais_hybrid'/>
+          </span>
+          <span className='Offers'>Offers</span>
+          
+      
+          
+          
+          
+            
+          
+          
+          
           
 
 

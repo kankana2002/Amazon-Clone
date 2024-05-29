@@ -213,3 +213,29 @@ button{
     
     
 }
+.offer{
+    height: 20px;
+    width: auto;
+    position: relative;
+}
+.Offers{
+    margin-right: 20px;
+    
+    font-size: 15px;
+}
+.Offers{
+    margin-left: 20px;
+}
+.left_div{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-color: black;
+
+}
+.right_div{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-color: black;
+}
