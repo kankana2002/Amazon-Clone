@@ -148,3 +148,25 @@
     justify-content: center;
 }
 }
+.link{
+    color: lightseagreen;
+}
+.star{
+    margin: 10px;
+    font-size: 15px;
+
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.on{
+    color: #ec9615;
+}
+.off{
+   color: gold
+   
+}
