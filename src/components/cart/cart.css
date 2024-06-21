@@ -79,7 +79,8 @@
 .right_cart h3{
     font-weight: 500;
     font-size: 23px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
+    margin-top: 0;
 }
 
 .right_cart h4{
@@ -213,29 +214,46 @@ button{
     
     
 }
-.offer{
-    height: 20px;
-    width: auto;
-    position: relative;
-}
-.Offers{
-    margin-right: 20px;
-    
+.a-size{
     font-size: 15px;
+    color: cadetblue;
 }
-.Offers{
-    margin-left: 20px;
+.a-carosoel{
+    padding: 20px;
 }
-.left_div{
-    height: 200px;
-    width: 200px;
+.span{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.span1{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+}
+.products_item{
+    margin-top: 10px;
     padding: 10px;
-    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.cart_section{
+    display: flex;
+    align-items: center;
+}
+.kankana{
+    width: 150px;
+    height: auto;
+    
+}
+.h6{
+    margin-top: -15px;
 
 }
-.right_div{
-    height: 200px;
-    width: 200px;
-    padding: 10px;
-    border-color: black;
+.right_cart{
+    margin-top: -150px;
+
 }

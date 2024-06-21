@@ -5,7 +5,11 @@ import { faStar } from '@fortawesome/free-regular-svg-icons'
 
 import { useState } from 'react';
 import { Divider } from '@mui/material';
-import { alignProperty } from '@mui/material/styles/cssUtils';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { products } from './cartdata';
+
+
 
 
 
@@ -48,58 +52,45 @@ const Cart = () => {
               ))
             }
           </div>
-          <div className='div'>
-            <img src='https://www.zonbase.com/blog/wp-content/uploads/2021/08/5ff74433cedc318c055af9e7_1-1536x798-1.png' className='image' />
-
-          </div>
+          <img className='kankana' src='https://www.zonbase.com/blog/wp-content/uploads/2021/08/5ff74433cedc318c055af9e7_1-1536x798-1.png'/>
+         
           <h6 className='h6'>5K+ bought in past month</h6>
           <Divider />
           <div className='pricetag'>
-          <span aria-hidden="true" className='discount'>-49%</span>
-          <span className='price' data-a-size="xl" data-a-color="base"></span>
-          <span aria-hidden="true">
-            <span className='a-price'>&#8377;</span>
-            <span className='a-price-whole'>615</span>
-          </span>
+            <span aria-hidden="true" className='discount'>-49%</span>
+            <span className='price' data-a-size="xl" data-a-color="base"></span>
+            <span aria-hidden="true">
+              <span className='a-price'>&#8377;</span>
+              <span className='a-price-whole'>615</span>
+            </span>
           </div>
-          <p className='mrp' >M.R.P.: ₹1,195</p>
+          <p className='mrp' >M.R.P:<span style={{ color: "red" }}> ₹1,195</span></p>
           <p className='mrp'>Inclusive of all taxes</p>
-          <p>EMI starts at ₹213 per month</p>
-          <Divider/>
-          <span className='offers'>
-          <img className='offer' src='https://cdn-icons-png.freepik.com/256/9374/9374306.png?ga=GA1.1.387523704.1705250724&semt=ais_hybrid'/>
-          </span>
-          <span className='Offers'>Offers</span>
-          
-      
-          
-          
-          
-            
-          
-          
-          
-          
+          <p>EMI starts at <span style={{ color: "red" }}>₹213</span> per month</p>
+
+
+
+          <Divider />
+          <p className='description'>
+            <h5>About this item</h5>
+            <ul style={{ listStyleType: 'disc', color: "#565959", fontSize: 14, fontWeight: 500 }}>
+              <li>Max 3 differentiators Great Features - i.Automatic Cutoff ii. 360 Degree Swivel Base iii.Single Touch lid locking</li>
+              <li>Voltage: 230V; Wattage: 1500W. Heating Element:Yes</li>
+              <li>Warranty: 1 Year, BSNL/MTNL</li>
+              <li>i.Power - 1500 watts ii. Capacity - 1.5L iii.Material- Stainless Steel iv. Concealed Element</li>
+              <li>Troubleshooting guidelines: i.Never operate the appliance empty ii. Never lift the kettle from the base when the unit is in operation.</li>
+              <li>The large opening in the top allows easy access to the smooth, seamless Stainless Steel interior for easy cleaning of mineral deposits</li>
+
+            </ul>
+          </p>
+
 
 
 
         </div>
-        <div className='Last_section'>
-
-        </div>
-        
-        
-
-
-
       </div>
-
-      
-      
-      
-
     </div>
-    
+
   )
 }
 
